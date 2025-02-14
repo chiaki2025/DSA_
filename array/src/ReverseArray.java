@@ -21,6 +21,7 @@ public class ReverseArray {
         for(int i = 0; i < 5; i++){
             array[i] = scanner.nextInt();
         }
+        scanner.close();
         arrayUtil.reverse(array, 0, array.length - 1);
         arrayUtil.printArray(array);
     }
